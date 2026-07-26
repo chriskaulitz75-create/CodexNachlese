@@ -141,6 +141,21 @@ Für jedes Kapitel werden folgende Fragen beantwortet:
 
 Erst nach dieser Analyse wird die Dokumentation aktualisiert.
 
+### Migrationsplan
+
+Für die Überarbeitung älterer Dokumentationen wird ein Migrationsplan geführt.
+
+Der Migrationsplan dokumentiert den Fortschritt der Überarbeitung und verhindert, dass Kapitel vergessen, doppelt bearbeitet oder unvollständig übernommen werden.
+
+Für jedes Kapitel wird festgehalten:
+
+- Bearbeitungsstatus
+- Ergebnis der Analyse
+- Verweis auf die neue Dokumentation
+- Bemerkungen oder offene Punkte
+
+Der Migrationsplan wird während der gesamten Überarbeitung kontinuierlich aktualisiert.
+
 ### Architektur- und Projektentscheidungen
 
 Grundlegende Entscheidungen werden dauerhaft dokumentiert.
