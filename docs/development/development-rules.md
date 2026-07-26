@@ -78,3 +78,41 @@ Folgende Seiten werden weiterhin manuell gepflegt:
 Der Codex des Abenteuers ist das Hauptprojekt.
 
 Die Nachlese unterstützt die Entwicklung und soll möglichst wenig zusätzlichen Aufwand verursachen.
+
+## Arbeitsweise mit ChatGPT
+
+Für die Entwicklung des Projekts gelten folgende Regeln:
+
+### Entwicklung
+
+- Änderungen werden schrittweise umgesetzt.
+- Es wird immer nur **eine Änderung gleichzeitig** vorgenommen.
+- Nach jeder Änderung wird getestet, bevor die nächste Änderung erfolgt.
+- Größere Änderungen werden erst nach erfolgreichem Test abgeschlossen.
+
+### Dokumentation
+
+Nach jeder größeren Änderung wird geprüft, ob die Dokumentation angepasst werden muss.
+
+**Falls eine Anpassung erforderlich ist:**
+
+- Es wird genau angegeben:
+  - welcher Ordner betroffen ist,
+  - welche Datei bearbeitet werden muss,
+  - an welcher Position der Text eingefügt werden soll.
+- Der vollständige Markdown-Text wird fertig erstellt.
+- Der Text wird lediglich kopiert und eingefügt.
+
+**Falls keine Anpassung erforderlich ist:**
+
+> Keine Änderung nötig.
+
+### Abschluss einer Änderung
+
+Nach einer Dokumentationsänderung wird – sofern erforderlich – anschließend ausgeführt:
+
+```bash
+npm run docs:generate
+```
+
+Danach werden die Änderungen mit Git gespeichert und veröffentlicht.

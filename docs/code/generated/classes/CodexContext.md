@@ -20,6 +20,7 @@ Keine Basisklasse.
 - currentCampaign
 - currentCharacter
 - campaignViewManager
+- characterManager
 ## Methoden
 
 Keine Methoden.

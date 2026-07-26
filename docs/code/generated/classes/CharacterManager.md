@@ -19,3 +19,4 @@ Keine Basisklasse.
 - getCharacterFolder()
 - createCharacter()
 - getCharacters()
+- getCharacterContent()
