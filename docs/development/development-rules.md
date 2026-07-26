@@ -116,3 +116,45 @@ npm run docs:generate
 ```
 
 Danach werden die Änderungen mit Git gespeichert und veröffentlicht.
+
+## Pflege der Projektdokumentation
+
+Die Projektdokumentation (CodexNachlese) ist die zentrale Wissensquelle für den Codex des Abenteuers.
+
+Sie dient nicht nur als Dokumentation, sondern als offizielles Entwicklerhandbuch und Projekt-Wiki.
+
+### Grundsatz
+
+Informationen sollen dauerhaft an einer zentralen Stelle gepflegt werden. Wissen darf nicht ausschließlich in Chatverläufen oder Notizen verbleiben.
+
+### Überarbeitung bestehender Dokumente
+
+Werden ältere Dokumente (z. B. Entwicklerhandbücher, PDFs oder Konzeptdokumente) überprüft, erfolgt dies kapitelweise.
+
+Für jedes Kapitel werden folgende Fragen beantwortet:
+
+- Ist der Inhalt noch aktuell?
+- Passt er zur aktuellen Architektur?
+- Fehlen inzwischen wichtige Erkenntnisse?
+- Gibt es bessere Lösungen?
+- Soll der Abschnitt übernommen, angepasst, erweitert oder verworfen werden?
+
+Erst nach dieser Analyse wird die Dokumentation aktualisiert.
+
+### Architektur- und Projektentscheidungen
+
+Grundlegende Entscheidungen werden dauerhaft dokumentiert.
+
+Dazu gehören beispielsweise:
+
+- Architekturentscheidungen (ADR)
+- Designentscheidungen
+- Entwicklungsprinzipien
+- Projektregeln
+- Best Practices
+
+### Ziel
+
+Am Ende soll die CodexNachlese die einzige Referenz sein, die benötigt wird, um das Projekt zu verstehen und weiterzuentwickeln.
+
+Neue ChatGPT-Sitzungen oder neue Entwickler sollen sich ausschließlich anhand der Dokumentation in das Projekt einarbeiten können.
