@@ -173,3 +173,19 @@ Dazu gehören beispielsweise:
 Am Ende soll die CodexNachlese die einzige Referenz sein, die benötigt wird, um das Projekt zu verstehen und weiterzuentwickeln.
 
 Neue ChatGPT-Sitzungen oder neue Entwickler sollen sich ausschließlich anhand der Dokumentation in das Projekt einarbeiten können.
+
+### Konsistente Dokumentationsstruktur
+
+Die bestehende Struktur der CodexNachlese wird konsequent beibehalten.
+
+Bei neuen Dokumentationsseiten gelten folgende Regeln:
+
+- Vorhandene Ordner werden bevorzugt verwendet.
+- Vorhandene Namenskonventionen werden übernommen.
+- Neue Oberordner werden nur angelegt, wenn sich Inhalte nicht sinnvoll in die bestehende Struktur einfügen lassen.
+- Dateinamen folgen der bestehenden Konvention (englische Dateinamen im kebab-case).
+- Der eigentliche Dokumentationsinhalt kann unabhängig davon in deutscher Sprache verfasst werden.
+
+Vor jeder neuen Dokumentationsseite wird geprüft, ob sie in die bestehende Struktur integriert werden kann.
+
+Ziel ist eine langfristig übersichtliche, konsistente und leicht navigierbare Projektdokumentation.
