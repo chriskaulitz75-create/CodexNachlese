@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'de-DE',
+  
+  base: '/CodexNachlese/',
 
   title: 'Codex Nachlese',
 
