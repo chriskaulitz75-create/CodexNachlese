@@ -30,7 +30,7 @@ Jedes Kapitel durchläuft denselben Prozess:
 
 | Kapitel | Status | Ergebnis | Zielseite | Bemerkungen |
 |----------|--------|----------|-----------|-------------|
-| 1 – Einleitung | ⏳ Offen | – | – | – |
+| 1 – Einleitung | ✅ Abgeschlossen | ✏️ Neu erstellt | docs/index.md | Als moderne Einleitung der CodexNachlese neu formuliert |
 | 2 – Projektvision | ⏳ Offen | – | – | – |
 | 3 – Entwicklungsphilosophie | ⏳ Offen | – | – | – |
 | 4 – Projektgrundsätze | ⏳ Offen | – | – | – |
