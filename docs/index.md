@@ -1,19 +1,45 @@
 # Codex des Abenteuers
 
-Willkommen zur **Codex Nachlese**.
+## Willkommen zur CodexNachlese
 
-Diese Dokumentation dient als zentrale Wissensbasis für die Entwicklung des Projekts **Codex des Abenteuers**.
+Die CodexNachlese ist die zentrale Wissensbasis des Projekts **Codex des Abenteuers**.
 
-Sie bündelt Projektinformationen, Architektur, Entwicklungsregeln und automatisch erzeugte Code-Dokumentationen an einem Ort.
+Sie dient als offizielle Referenz für die Entwicklung und bündelt sämtliche dauerhaft relevanten Informationen an einem Ort.
 
----
+Dazu gehören unter anderem:
 
-# Ziel
+- Projektvision
+- Architektur
+- Entwicklungsregeln
+- Coding-Standards
+- Designentscheidungen
+- Architekturentscheidungen
+- Roadmap
+- Changelog
+- automatisch erzeugte Code-Dokumentation
 
-Die Nachlese soll den aktuellen Entwicklungsstand jederzeit nachvollziehbar machen und den Einstieg in das Projekt erleichtern.
+## Ziel
 
-Sie unterstützt die Entwicklung, ersetzt jedoch nicht den eigentlichen Quellcode.
+Die CodexNachlese verfolgt das Ziel, den aktuellen Projektstand vollständig und nachvollziehbar zu dokumentieren.
 
+Sie dient als gemeinsame Wissensquelle für:
+
+- die laufende Entwicklung,
+- zukünftige Erweiterungen,
+- neue Entwickler,
+- sowie zukünftige ChatGPT-Sitzungen.
+
+Grundlegende Entscheidungen werden dauerhaft dokumentiert, sodass ihre Hintergründe auch nach längerer Zeit nachvollziehbar bleiben.
+
+## Grundsatz
+
+Die CodexNachlese ist die **Single Source of Truth** des Projekts.
+
+Chatverläufe, Notizen oder ältere Dokumente dienen ausschließlich als Arbeitsmaterial und historische Referenz.
+
+Der offizielle Projektstand wird ausschließlich in der CodexNachlese gepflegt.
+
+Neue Funktionen, Architekturänderungen und grundlegende Entscheidungen werden zeitnah dokumentiert und mit dem Projekt synchron gehalten.
 ---
 
 # Entwicklungsworkflow
