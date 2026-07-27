@@ -290,3 +290,14 @@ Bei neuen Dokumentationsseiten gelten folgende Regeln:
 Vor jeder neuen Dokumentationsseite wird geprüft, ob sie in die bestehende Struktur integriert werden kann.
 
 Ziel ist eine langfristig übersichtliche, konsistente und leicht navigierbare Projektdokumentation.
+
+---
+
+## Siehe auch
+
+- **Current Status** – Beschreibt den aktuellen Entwicklungsstand des Projekts.
+- **Roadmap** – Zeigt die geplante Weiterentwicklung und zukünftige Meilensteine.
+- **Decisions** – Dokumentiert grundlegende Architektur- und Projektentscheidungen.
+- **Changelog** – Enthält die fachlich relevanten Änderungen des Projekts.
+- **Architecture** – Beschreibt den Aufbau und die Struktur des Projekts.
+- **Code** – Dokumentiert den technischen Aufbau und die Projektstruktur.
