@@ -133,3 +133,12 @@ Diese Seite dokumentiert ausschließlich langfristig gültige Entscheidungen.
 Kurzfristige Entwicklungsaufgaben gehören in die Roadmap oder den aktuellen Projektstatus.
 
 Historische Dokumente dienen lediglich als Quelle für neue Entscheidungen und werden nicht unverändert übernommen.
+
+---
+
+## Siehe auch
+
+- **Development Rules** – Beschreibt die Regeln und Prozesse, nach denen Entscheidungen umgesetzt werden.
+- **Current Status** – Zeigt den aktuellen Stand der Projektentwicklung.
+- **Roadmap** – Beschreibt die geplante Weiterentwicklung des Projekts.
+- **Architecture** – Dokumentiert den technischen Aufbau, auf dem viele Entscheidungen basieren.
