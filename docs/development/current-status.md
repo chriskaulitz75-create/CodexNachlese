@@ -74,3 +74,12 @@ CharacterView mit den Markdown-Dateien verbinden.
 ## Letzte Aktualisierung
 
 Nach Abschluss der CodexNachlese Version 1.0.
+
+---
+
+## Siehe auch
+
+- **Roadmap** – Geplante Weiterentwicklung und zukünftige Meilensteine.
+- **Decisions** – Dauerhaft gültige Architektur- und Projektentscheidungen.
+- **Development Rules** – Entwicklungs- und Dokumentationsprozess des Projekts.
+- **Changelog** – Fachlich relevante Änderungen und bisherige Entwicklung.
