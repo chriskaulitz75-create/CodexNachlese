@@ -93,6 +93,34 @@ Die Architektur dient deshalb nicht ausschließlich der technischen Umsetzung, s
 
 ---
 
+## Dokumentationsstruktur
+
+Die CodexNachlese gliedert sich in mehrere fachlich getrennte Bereiche.
+
+### Architektur
+
+Dokumentiert den strukturellen Aufbau des Projekts sowie die Beziehungen der wichtigsten Komponenten.
+
+### Entwicklung
+
+Dokumentiert den Entwicklungsprozess, den aktuellen Projektstand, die Roadmap, den Changelog sowie grundlegende Projektentscheidungen.
+
+### Code
+
+Dokumentiert die technische Struktur des Quellcodes und enthält automatisch erzeugte Dokumentationsseiten.
+
+### Diagramme
+
+Enthält Architektur- und Ablaufdiagramme zur Visualisierung technischer Zusammenhänge.
+
+### Bilder
+
+Enthält Grafiken und sonstige Medien, die in der Dokumentation verwendet werden.
+
+### PDF
+
+Archivbereich für historische oder exportierte Dokumente. Diese dienen als Referenz und ersetzen nicht die aktuelle Projektdokumentation.
+
 ## Siehe auch
 
 - **Navigation** – Beschreibt die Navigationsstruktur des Projekts.
