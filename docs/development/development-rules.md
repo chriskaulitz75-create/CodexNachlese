@@ -152,6 +152,21 @@ Erst wenn keine bestehende Seite geeignet ist, wird eine neue Dokumentationsseit
 
 Dadurch bleibt die Dokumentation übersichtlich, widerspruchsfrei und langfristig wartbar.
 
+### Querverweise zwischen Dokumentationsseiten
+
+Zusammengehörige Dokumentationsseiten werden durch Querverweise miteinander verbunden.
+
+Am Ende einer Seite kann dazu ein Abschnitt **„Siehe auch“** eingefügt werden.
+
+Querverweise sollen:
+
+- fachlich verwandte Themen verbinden,
+- Doppelungen vermeiden,
+- den Einstieg für neue Entwickler erleichtern,
+- die Navigation innerhalb der Dokumentation verbessern.
+
+Es werden nur fachlich sinnvolle Verweise aufgenommen. Unnötige oder beliebige Links sind zu vermeiden.
+
 ## Arbeitsweise mit ChatGPT
 
 Für die Entwicklung des Projekts gelten folgende Regeln:
