@@ -33,6 +33,23 @@ Alle dauerhaft relevanten Informationen werden ausschließlich hier gepflegt.
 
 Chatverläufe, Notizen oder historische Dokumente dienen lediglich als Arbeitsmaterial oder Referenz und ersetzen nicht die Projektdokumentation.
 
+## Verwendung der CodexNachlese während der Entwicklung
+
+Die CodexNachlese ist während der Entwicklung des **Codex des Abenteuers** die maßgebliche Projektreferenz.
+
+Wird in einer ChatGPT-Sitzung auf die CodexNachlese verwiesen oder der Link zur Dokumentation bereitgestellt, gilt folgende Arbeitsweise:
+
+1. Die CodexNachlese wird als aktuelle Projektgrundlage verwendet.
+2. Bestehende Architektur-, Entwicklungs- und Dokumentationsentscheidungen werden vor neuen Vorschlägen berücksichtigt.
+3. Bereits dokumentierte Informationen werden nicht erneut hergeleitet oder durch Vermutungen ersetzt.
+4. Bei Unsicherheiten wird zunächst die Dokumentation geprüft, bevor neue Lösungen vorgeschlagen werden.
+5. Neue Änderungen orientieren sich an den bestehenden Projektregeln und der dokumentierten Architektur.
+6. Nach abgeschlossenen Änderungen wird geprüft, ob die Dokumentation aktualisiert werden muss.
+
+Die CodexNachlese dient während der laufenden Entwicklung als gemeinsame Wissensbasis zwischen Entwickler und ChatGPT.
+
+Sie ergänzt den aktuellen Chatverlauf und soll helfen, bereits getroffene Entscheidungen konsistent umzusetzen.
+
 ---
 
 # Dokumentationsbereiche
