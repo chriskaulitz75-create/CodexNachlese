@@ -119,3 +119,13 @@ Nach Änderungen an Klassen, Modulen oder der Projektstruktur sollte deshalb aus
 ```bash
 npm run docs:generate
 ```
+
+---
+
+# Siehe auch
+
+Die wichtigsten weiterführenden Bereiche der CodexNachlese:
+
+- Architektur – Dokumentation des Projektaufbaus und der Systemstruktur.
+- Entwicklung – Entwicklungsprozess, Roadmap, Entscheidungen und aktueller Projektstatus.
+- Code – Technische Dokumentation und automatisch erzeugte Code-Referenz.
