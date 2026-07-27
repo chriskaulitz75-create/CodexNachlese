@@ -83,3 +83,13 @@ Es bildet damit einen wesentlichen Bestandteil der Gesamtarchitektur.
 - Navigation
 - Projektstruktur
 - Architekturentscheidungen
+
+---
+
+## Siehe auch
+
+- Übersicht – Gesamtarchitektur des Projekts.
+- Navigation – Struktur und Navigation des Projekts.
+- Current Status – Aktueller Entwicklungsstand.
+- Decisions – Architektur- und Projektentscheidungen.
+- Code – Technische Dokumentation der Implementierung.
