@@ -92,3 +92,71 @@ Die Struktur dient daher nicht nur der Organisation des Quellcodes, sondern ist 
 - Navigation
 - Datenmodell
 - Entwicklungsregeln
+
+## Dateiübersicht
+
+Diese Übersicht dient als Nachschlagewerk während der Entwicklung.
+
+Sie enthält den Speicherort jeder wichtigen Datei sowie ihre Aufgabe. Dadurch können Entwickler und ChatGPT Dateien schnell finden, ohne im Projekt nach Ordnern suchen zu müssen.
+
+### src
+
+```text
+src/
+├── Components/
+├── Managers/
+├── Models/
+├── Views/
+├── main.ts
+└── styles.css
+```
+
+---
+
+### Components
+
+| Datei | Aufgabe |
+|--------|----------|
+| CampaignBackButton.ts | Zurück-Button innerhalb einer Kampagne |
+| *(weitere Dateien ergänzen)* | |
+
+---
+
+### Managers
+
+| Datei | Aufgabe |
+|--------|----------|
+| CampaignManager.ts | Verwaltung der Kampagnen |
+| CampaignNavigationManager.ts | Navigation innerhalb einer Kampagne |
+| CampaignViewManager.ts | Auswahl der Kampagnenansichten |
+| CharacterManager.ts | Verwaltung der Charakterdateien |
+| DataManager.ts | Zugriff auf Vault- und Projektdaten |
+| NavigationManager.ts | Navigation zwischen den Hauptseiten |
+
+---
+
+### Models
+
+| Datei | Aufgabe |
+|--------|----------|
+| CodexContext.ts | Gemeinsamer Kontext für alle Views |
+| CampaignPage.ts | Seiten innerhalb einer Kampagne |
+| NavigationPage.ts | Hauptnavigation |
+
+---
+
+### Views
+
+| Datei | Aufgabe |
+|--------|----------|
+| Base/BaseView.ts | Basisklasse aller Views |
+| CharacterView.ts | Anzeige eines Charakters |
+| *(weitere Views ergänzen)* | |
+
+---
+
+## Pflege
+
+Diese Übersicht wird erweitert, sobald neue Dateien entstehen.
+
+Es genügt, Dateiname und Aufgabe einzutragen. Der vollständige Quellcode gehört **nicht** in die Dokumentation.
