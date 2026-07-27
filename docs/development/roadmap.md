@@ -81,3 +81,12 @@ Sie stellt keine verbindliche Reihenfolge einzelner Arbeitsschritte dar.
 Neue Erkenntnisse, Architekturentscheidungen oder geänderte Anforderungen können jederzeit zu einer Anpassung der Roadmap führen.
 
 Der aktuelle Entwicklungsstand wird in der Seite **Current Status** dokumentiert.
+
+---
+
+## Siehe auch
+
+- **Current Status** – Aktueller Entwicklungsstand des Projekts.
+- **Decisions** – Projekt- und Architekturentscheidungen, die die Roadmap beeinflussen.
+- **Development Rules** – Grundsätze für die Entwicklung und Dokumentation.
+- **Changelog** – Bereits umgesetzte fachlich relevante Änderungen.
