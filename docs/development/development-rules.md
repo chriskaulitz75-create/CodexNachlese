@@ -98,6 +98,24 @@ Die Überarbeitung folgt grundsätzlich dem Prinzip:
 
 Erst nach dieser Analyse wird eine bestehende Dokumentationsseite vollständig überarbeitet.
 
+### Dokumentations-Review
+
+Nach dem Erstellen oder der grundlegenden Überarbeitung mehrerer Dokumentationsseiten erfolgt eine Dokumentations-Review.
+
+Ziel der Review ist es, die Dokumentation als Gesamtsystem zu betrachten und nicht nur einzelne Seiten.
+
+Dabei wird insbesondere geprüft:
+
+- Sind die Verantwortlichkeiten der einzelnen Seiten klar voneinander abgegrenzt?
+- Gibt es doppelte oder widersprüchliche Informationen?
+- Fehlen wichtige Querverweise zwischen den Seiten?
+- Sind neue Inhalte an der fachlich richtigen Stelle dokumentiert?
+- Ist die Dokumentationsstruktur weiterhin logisch und konsistent?
+
+Erst nach dieser Gesamtprüfung gilt ein Dokumentationsabschnitt als abgeschlossen.
+
+Werden während der Review Verbesserungsmöglichkeiten erkannt, werden diese gezielt umgesetzt und anschließend erneut überprüft.
+
 ## Arbeitsweise mit ChatGPT
 
 Für die Entwicklung des Projekts gelten folgende Regeln:
