@@ -76,3 +76,13 @@ Die Navigation orientiert sich daher konsequent an den Aufgaben der Benutzer und
 - Architekturübersicht
 - Datenmodell
 - Projektstrukturs
+
+---
+
+## Siehe auch
+
+- Übersicht – Gesamtarchitektur des Projekts.
+- Datenmodell – Aufbau der zentralen Datenstrukturen.
+- Development Rules – Entwicklungs- und Dokumentationsregeln.
+- Current Status – Aktueller Entwicklungsstand.
+- Code – Technische Projektstruktur.
