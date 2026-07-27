@@ -90,3 +90,13 @@ Die Architektur dient deshalb nicht ausschließlich der technischen Umsetzung, s
 - Projektstruktur
 - Entwicklungsregeln
 - Architekturentscheidungen
+
+---
+
+## Siehe auch
+
+- **Navigation** – Beschreibt die Navigationsstruktur des Projekts.
+- **Datenmodell** – Dokumentiert die zentralen Datenstrukturen.
+- **Current Status** – Zeigt den aktuellen Entwicklungsstand der Architektur.
+- **Decisions** – Erläutert grundlegende Architekturentscheidungen.
+- **Code** – Beschreibt die technische Projektstruktur und deren Umsetzung.
