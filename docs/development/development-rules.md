@@ -134,6 +134,24 @@ Jede Seite sollte möglichst genau eine fachliche Verantwortung besitzen.
 
 Informationen sollen nicht unnötig auf mehreren Seiten gepflegt werden. Stattdessen werden Querverweise verwendet.
 
+### Klare Verantwortlichkeiten
+
+Jede Dokumentationsseite besitzt genau eine fachliche Hauptaufgabe.
+
+Beispiele:
+
+- **Current Status** beschreibt den aktuellen Stand des Projekts.
+- **Roadmap** beschreibt die geplante Weiterentwicklung.
+- **Decisions** dokumentiert dauerhaft gültige Projektentscheidungen.
+- **Changelog** dokumentiert fachlich relevante Änderungen.
+- **Development Rules** beschreibt den Entwicklungs- und Dokumentationsprozess.
+
+Neue Informationen werden grundsätzlich auf der Seite ergänzt, deren fachliche Verantwortung am besten passt.
+
+Erst wenn keine bestehende Seite geeignet ist, wird eine neue Dokumentationsseite erstellt.
+
+Dadurch bleibt die Dokumentation übersichtlich, widerspruchsfrei und langfristig wartbar.
+
 ## Arbeitsweise mit ChatGPT
 
 Für die Entwicklung des Projekts gelten folgende Regeln:
