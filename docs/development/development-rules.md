@@ -116,6 +116,24 @@ Erst nach dieser Gesamtprüfung gilt ein Dokumentationsabschnitt als abgeschloss
 
 Werden während der Review Verbesserungsmöglichkeiten erkannt, werden diese gezielt umgesetzt und anschließend erneut überprüft.
 
+### Einheitlicher Aufbau von Dokumentationsseiten
+
+Neue Dokumentationsseiten folgen möglichst einer einheitlichen Struktur.
+
+Nicht jede Seite benötigt alle Abschnitte, die Reihenfolge sollte jedoch möglichst konsistent bleiben.
+
+Empfohlene Bestandteile sind:
+
+- Ziel oder Zweck der Seite
+- Beschreibung des aktuellen Sachverhalts
+- Wichtige Details oder fachliche Informationen
+- Hinweise zur Pflege oder Aktualisierung
+- Verweise auf thematisch verwandte Dokumentationsseiten
+
+Jede Seite sollte möglichst genau eine fachliche Verantwortung besitzen.
+
+Informationen sollen nicht unnötig auf mehreren Seiten gepflegt werden. Stattdessen werden Querverweise verwendet.
+
 ## Arbeitsweise mit ChatGPT
 
 Für die Entwicklung des Projekts gelten folgende Regeln:
