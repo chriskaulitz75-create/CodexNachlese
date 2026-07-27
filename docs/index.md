@@ -2,97 +2,119 @@
 
 ## Willkommen zur CodexNachlese
 
-Die CodexNachlese ist die zentrale Wissensbasis des Projekts **Codex des Abenteuers**.
+Die **CodexNachlese** ist die zentrale Wissensbasis des Projekts **Codex des Abenteuers**.
 
-Sie dient als offizielle Referenz für die Entwicklung und bündelt sämtliche dauerhaft relevanten Informationen an einem Ort.
+Sie dokumentiert den aktuellen Stand des Projekts, grundlegende Architektur- und Entwicklungsentscheidungen sowie die technische Struktur des Quellcodes.
 
-Dazu gehören unter anderem:
+Ziel ist es, Projektwissen langfristig nachvollziehbar zu bewahren und unabhängig von einzelnen Entwicklern oder Chatverläufen verfügbar zu machen.
 
-- Projektvision
-- Architektur
-- Entwicklungsregeln
-- Coding-Standards
-- Designentscheidungen
-- Architekturentscheidungen
-- Roadmap
-- Changelog
-- automatisch erzeugte Code-Dokumentation
+---
 
 ## Ziel
 
-Die CodexNachlese verfolgt das Ziel, den aktuellen Projektstand vollständig und nachvollziehbar zu dokumentieren.
+Die CodexNachlese dient als offizielle Referenz für die Entwicklung des Projekts.
 
-Sie dient als gemeinsame Wissensquelle für:
+Sie unterstützt:
 
 - die laufende Entwicklung,
 - zukünftige Erweiterungen,
 - neue Entwickler,
 - sowie zukünftige ChatGPT-Sitzungen.
 
-Grundlegende Entscheidungen werden dauerhaft dokumentiert, sodass ihre Hintergründe auch nach längerer Zeit nachvollziehbar bleiben.
+Neben dem aktuellen Projektstand werden auch die Hintergründe wichtiger Entscheidungen dokumentiert, damit deren Motivation dauerhaft nachvollziehbar bleibt.
+
+---
 
 ## Grundsatz
 
 Die CodexNachlese ist die **Single Source of Truth** des Projekts.
 
-Chatverläufe, Notizen oder ältere Dokumente dienen ausschließlich als Arbeitsmaterial und historische Referenz.
+Alle dauerhaft relevanten Informationen werden ausschließlich hier gepflegt.
 
-Der offizielle Projektstand wird ausschließlich in der CodexNachlese gepflegt.
+Chatverläufe, Notizen oder historische Dokumente dienen lediglich als Arbeitsmaterial oder Referenz und ersetzen nicht die Projektdokumentation.
 
-Neue Funktionen, Architekturänderungen und grundlegende Entscheidungen werden zeitnah dokumentiert und mit dem Projekt synchron gehalten.
+---
+
+# Dokumentationsbereiche
+
+Die Dokumentation gliedert sich in drei Hauptbereiche.
+
+## Architektur
+
+Beschreibt den Aufbau des Projekts.
+
+Unter anderem:
+
+- Architekturübersicht
+- Datenmodell
+- Navigation
+- Strukturentscheidungen
+
+---
+
+## Entwicklung
+
+Dokumentiert den aktuellen Entwicklungsstand und die Projektorganisation.
+
+Unter anderem:
+
+- Entwicklungsregeln
+- Aktueller Stand
+- Roadmap
+- Entscheidungen
+- Changelog
+
+---
+
+## Code
+
+Beschreibt den technischen Aufbau des Projekts.
+
+Unter anderem:
+
+- Projektstruktur
+- automatisch erzeugte Code-Dokumentation
+- technische Zusammenhänge
+
 ---
 
 # Entwicklungsworkflow
 
-1. Neue Funktion im Codex des Abenteuers entwickeln.
+Zur Pflege der Dokumentation gehört der folgende Ablauf:
+
+1. Neue Funktion entwickeln.
 2. Änderungen testen.
-3. Dokumentation aktualisieren.
+3. Dokumentation prüfen und gegebenenfalls aktualisieren.
+4. Automatisch erzeugte Dokumentation aktualisieren.
 
 ```bash
 npm run docs:generate
 ```
 
-4. Falls erforderlich folgende Seiten manuell aktualisieren:
-
-- Aktueller Stand
-- Changelog
-- Entscheidungen
-- Roadmap
+5. Änderungen lokal überprüfen.
+6. Änderungen committen und nach GitHub übertragen.
 
 ---
 
-# Inhalt der Nachlese
+# Dokumentationsprinzipien
 
-## Projekt
+Für die CodexNachlese gelten folgende Grundsätze:
 
-- Projektübersicht
-- Entwicklungsregeln
-- Aktueller Stand
-- Roadmap
-- Changelog
-- Architekturentscheidungen
+- Wissen bewahren
+- Erhalten → Strukturieren → Ergänzen
+- Eine Dokumentationsseite besitzt genau eine fachliche Verantwortung.
+- Dokumentation gehört zur Entwicklung.
+- Nach größeren Änderungen erfolgt eine Dokumentations-Review.
 
-## Architektur
-
-Dokumentation der Projektstruktur und Architektur.
-
-## Code-Referenz
-
-Automatisch erzeugte Dokumentation aus dem Quellcode.
-
-Unter anderem:
-
-- Projektstruktur
-- Klassenübersicht
-- Klassendokumentation
+Diese Regeln sind im Bereich **Development Rules** ausführlich beschrieben.
 
 ---
 
 # Hinweis
 
-Die Inhalte unter **Code-Referenz** werden automatisch aus dem aktuellen Quellcode erzeugt.
+Die automatisch erzeugten Dokumentationsseiten werden aus dem aktuellen Quellcode erstellt.
 
-Nach größeren Änderungen sollte daher ausgeführt werden:
+Nach Änderungen an Klassen, Modulen oder der Projektstruktur sollte deshalb ausgeführt werden:
 
 ```bash
 npm run docs:generate
