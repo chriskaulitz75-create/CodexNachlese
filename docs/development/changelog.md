@@ -59,3 +59,12 @@ Nicht jede Codeänderung erfordert einen neuen Eintrag.
 Kleinere Refactorings, Formatierungen oder interne Bereinigungen werden ausschließlich über die Git-Historie dokumentiert.
 
 Neue Einträge werden innerhalb der aktuellen Version ergänzt. Mit zukünftigen Releases werden weitere Versionsabschnitte hinzugefügt.
+
+---
+
+## Siehe auch
+
+- **Current Status** – Zeigt den aktuellen Entwicklungsstand des Projekts.
+- **Roadmap** – Beschreibt die geplanten Meilensteine und zukünftigen Entwicklungen.
+- **Decisions** – Erläutert die grundlegenden Projekt- und Architekturentscheidungen.
+- **Development Rules** – Beschreibt den Entwicklungs- und Dokumentationsprozess.
