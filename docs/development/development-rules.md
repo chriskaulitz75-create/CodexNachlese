@@ -79,6 +79,25 @@ Der Codex des Abenteuers ist das Hauptprojekt.
 
 Die Nachlese unterstützt die Entwicklung und soll möglichst wenig zusätzlichen Aufwand verursachen.
 
+### Wissen bewahren
+
+Bei der Überarbeitung bestehender Dokumentationsseiten steht der Erhalt des Projektwissens im Vordergrund.
+
+Vor jeder Überarbeitung wird geprüft:
+
+- Welche Informationen müssen erhalten bleiben?
+- Welche Informationen sind veraltet?
+- Welche Informationen fehlen inzwischen?
+- Welche Informationen helfen zukünftigen Entwicklern oder neuen ChatGPT-Sitzungen beim Verständnis des Projekts?
+
+Bestehende Inhalte werden nicht allein aus stilistischen Gründen ersetzt. Ziel ist es, Wissen zu strukturieren, zu ergänzen und zu aktualisieren, ohne relevante Informationen zu verlieren.
+
+Die Überarbeitung folgt grundsätzlich dem Prinzip:
+
+> **Erhalten → Strukturieren → Ergänzen**
+
+Erst nach dieser Analyse wird eine bestehende Dokumentationsseite vollständig überarbeitet.
+
 ## Arbeitsweise mit ChatGPT
 
 Für die Entwicklung des Projekts gelten folgende Regeln:
