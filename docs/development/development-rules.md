@@ -167,6 +167,19 @@ Querverweise sollen:
 
 Es werden nur fachlich sinnvolle Verweise aufgenommen. Unnötige oder beliebige Links sind zu vermeiden.
 
+### Neue Dokumentationsseiten
+
+Vor dem Erstellen einer neuen Dokumentationsseite wird geprüft, ob die neuen Informationen in eine bereits vorhandene Seite integriert werden können.
+
+Dabei gilt folgende Reihenfolge:
+
+1. Bestehende Dokumentationsseiten prüfen.
+2. Die fachlich passendste Seite auswählen.
+3. Informationen dort ergänzen.
+4. Nur wenn keine bestehende Seite geeignet ist, wird eine neue Dokumentationsseite erstellt.
+
+Dadurch bleibt die Dokumentation kompakt, konsistent und langfristig wartbar.
+
 ## Arbeitsweise mit ChatGPT
 
 Für die Entwicklung des Projekts gelten folgende Regeln:
