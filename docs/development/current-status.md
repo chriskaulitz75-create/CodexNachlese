@@ -24,7 +24,7 @@ Ein Obsidian-Plugin zur Verwaltung von Pathfinder-2e-Kampagnen.
 
 Die Grundarchitektur ist abgeschlossen.
 
-Der Fokus liegt jetzt auf der funktionalen Erweiterung der Charakteransicht und der Verarbeitung echter Markdown-Daten.
+Der Fokus liegt jetzt auf der funktionalen Erweiterung und strukturierten Darstellung der Charakteransicht.
 
 ---
 
@@ -45,7 +45,7 @@ Der Fokus liegt jetzt auf der funktionalen Erweiterung der Charakteransicht und 
 - ✅ Navigation zur CharacterView
 - ✅ Suche der ausgewählten Charakterdatei
 - ✅ Laden des Inhalts einer Charakter-Markdown-Datei
-- ✅ Anzeige des geladenen Markdown-Inhalts als Rohtext
+- ✅ Gerenderte Anzeige des Markdown-Inhalts mit dem Obsidian MarkdownRenderer
 
 ---
 
@@ -79,3 +79,6 @@ CharacterManager
         │
         ▼
 Charakter-Markdown-Datei
+        │
+        ▼
+Obsidian MarkdownRenderer
