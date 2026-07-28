@@ -24,7 +24,7 @@ Ein Obsidian-Plugin zur Verwaltung von Pathfinder-2e-Kampagnen.
 
 Die Grundarchitektur ist abgeschlossen.
 
-Der Fokus liegt jetzt auf der funktionalen Erweiterung und strukturierten Darstellung der Charakteransicht.
+Der Fokus liegt jetzt auf der strukturierten Verarbeitung und Darstellung der Charakterdaten.
 
 ---
 
@@ -47,6 +47,8 @@ Der Fokus liegt jetzt auf der funktionalen Erweiterung und strukturierten Darste
 - ✅ Laden des Inhalts einer Charakter-Markdown-Datei
 - ✅ Gerenderte Anzeige des Markdown-Inhalts mit dem Obsidian MarkdownRenderer
 - ✅ Entfernung der doppelten Anzeige des Charakternamens
+- ✅ Minimale fachliche Struktur für Charakterdateien
+- ✅ Automatische Erstellung strukturierter Charakterdateien
 
 ---
 
@@ -87,26 +89,58 @@ Obsidian MarkdownRenderer
 
 ---
 
+## Struktur einer Charakterdatei
+
+Neue Charakterdateien verwenden folgende minimale Struktur:
+
+```yaml
+---
+codexType: character
+schemaVersion: 1
+name: "Charaktername"
+level: 1
+---
+```
+
+Unterhalb des Frontmatters befindet sich frei bearbeitbarer Markdown-Inhalt:
+
+```markdown
+# Charaktername
+
+## Notizen
+```
+
+### Verantwortlichkeiten
+
+Das Frontmatter enthält strukturierte und maschinenlesbare Charakterdaten.
+
+Der Markdown-Bereich enthält frei formulierbare Inhalte wie:
+
+- Notizen
+- Hintergrundinformationen
+- Beschreibungen
+- kampagnenspezifische Informationen
+
+Bestehende Charakterdateien werden nicht automatisch verändert.
+
+---
+
 ## Aktuelle Aufgabe
 
-Die fachliche Struktur der Charakterdateien festlegen.
+Die strukturierten Frontmatter-Daten einer Charakterdatei in der `CharacterView` auslesen.
 
-Bevor weitere Charakterfelder oder Darstellungen implementiert werden, wird geklärt:
+Als erster kleiner Schritt soll der gespeicherte Charakterlevel gelesen und zusätzlich zum gerenderten Markdown-Inhalt angezeigt werden.
 
-- Welche Charakterdaten in der Markdown-Datei gespeichert werden.
-- Welche Daten in der CharacterView angezeigt werden.
-- Welche Informationen als Markdown-Inhalt und welche als strukturierte Metadaten gespeichert werden.
-- Wie bestehende Charakterdateien mit der neuen Struktur kompatibel bleiben.
-
-Erst nach dieser Festlegung wird die nächste Codeänderung vorgenommen.
+Dabei bleibt der vorhandene Markdown-Inhalt vollständig erhalten.
 
 ---
 
 ## Danach geplant
 
-- Minimale Struktur für Charakterdateien umsetzen
-- Neue Charakterdateien automatisch mit dieser Struktur erstellen
-- Strukturierte Charakterdaten in der CharacterView darstellen
+- Charakterlevel strukturiert in der CharacterView anzeigen
+- Weitere grundlegende Charakterfelder festlegen
+- Charakterdaten bearbeitbar machen
+- Kompatibilität mit älteren Charakterdateien sicherstellen
 - Weitere Charakterfunktionen
 - NPC-System
 - Kampagnenfunktionen erweitern
@@ -115,7 +149,7 @@ Erst nach dieser Festlegung wird die nächste Codeänderung vorgenommen.
 
 ## Letzte Aktualisierung
 
-Nach der erfolgreichen gerenderten Anzeige der Charakter-Markdown-Datei und der Entfernung der doppelten Namensanzeige in der CharacterView.
+Nach der erfolgreichen Einführung einer minimalen Struktur für neu erstellte Charakterdateien.
 
 ---
 
