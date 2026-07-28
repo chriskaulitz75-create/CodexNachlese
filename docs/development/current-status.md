@@ -22,9 +22,9 @@ Ein Obsidian-Plugin zur Verwaltung von Pathfinder-2e-Kampagnen.
 
 ## Aktuelle Entwicklungsphase
 
-Grundarchitektur abgeschlossen.
+Die Grundarchitektur ist abgeschlossen.
 
-Der Fokus liegt jetzt auf der funktionalen Erweiterung des Plugins.
+Der Fokus liegt jetzt auf der funktionalen Erweiterung der Charakteransicht und der Verarbeitung echter Markdown-Daten.
 
 ---
 
@@ -41,6 +41,11 @@ Der Fokus liegt jetzt auf der funktionalen Erweiterung des Plugins.
 - ✅ ViewManager
 - ✅ NavigationManager
 - ✅ CampaignNavigationManager
+- ✅ Auswahl eines Charakters über die Kampagnenansicht
+- ✅ Navigation zur CharacterView
+- ✅ Suche der ausgewählten Charakterdatei
+- ✅ Laden des Inhalts einer Charakter-Markdown-Datei
+- ✅ Anzeige des geladenen Markdown-Inhalts als Rohtext
 
 ---
 
@@ -53,33 +58,24 @@ Die Anwendung basiert auf:
 - ViewManager
 - DataManager
 - Manager-Architektur
-- Zentrale Navigation
+- Zentraler Navigation
 
----
+Der aktuelle Datenfluss der Charakteransicht lautet:
 
-## Aktuelle Aufgabe
-
-CharacterView mit den Markdown-Dateien verbinden.
-
----
-
-## Danach geplant
-
-- NPC-System
-- Weitere Charakterfunktionen
-- Kampagnenfunktionen erweitern
-
----
-
-## Letzte Aktualisierung
-
-Nach Abschluss der CodexNachlese Version 1.0.
-
----
-
-## Siehe auch
-
-- **Roadmap** – Geplante Weiterentwicklung und zukünftige Meilensteine.
-- **Decisions** – Dauerhaft gültige Architektur- und Projektentscheidungen.
-- **Development Rules** – Entwicklungs- und Dokumentationsprozess des Projekts.
-- **Changelog** – Fachlich relevante Änderungen und bisherige Entwicklung.
+```text
+CampaignCharactersView
+        │
+        ▼
+currentCharacter
+        │
+        ▼
+ViewManager
+        │
+        ▼
+CharacterView
+        │
+        ▼
+CharacterManager
+        │
+        ▼
+Charakter-Markdown-Datei
